@@ -27,7 +27,7 @@ class Projects extends Component {
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
+                <div className="rounded-lg p-4">
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
@@ -54,7 +54,29 @@ class Projects extends Component {
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            <div className="row mx-auto">
+              {projects}
+              <div
+            className="col-sm-12 col-md-6 col-lg-4"
+            key={"game"}
+            style={{ cursor: "pointer" }}
+          >
+            <span className="portfolio-item d-block">
+                <div className="foto">
+                    <div className="rounded-lg p-4">
+                    <iframe className="d-block" src="frogger/index.html" title="game" style={{border:'none'}} height={425}></iframe>
+                
+                  <span className="project-date">2022</span>
+                  <br />
+                  <p className="project-title-settings mt-3" style={{zIndex:10}}>
+                    Frogger Arcade
+                  </p>
+                </div>
+              </div>
+              
+            </span>
+          </div>
+            </div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}

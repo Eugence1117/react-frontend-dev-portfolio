@@ -1,67 +1,77 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Eugence Lim Hsiao Jun",
+      "titles": [ "Front-end Developer", "Mobile App Developer","Full Stack Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/Eugence1117",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/eugence/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "https://github.com/Eugence1117.png?size=400"
     },
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "Proficient"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain",
+          "level": "Beginner"
+        },        
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "Proficient"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "React Native",
+          "class": "devicon-react-plain",
+          "level": "Proficient"
         },
         {
-          "name": "C#",
+          "name": "Svelte Kit",
+          "class": "devicon-svelte-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Android App",
+          "class": "devicon-androidstudio-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": ".NET CORE",
           "class": "devicon-csharp-plain",
-          "level": "65"
+          "level": "Intermediate"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
-          "level": "60"
+          "level": "Intermediate"
+        },
+        {
+          "name": "Microsoft SQL",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "Beginner"
         }
       ]
     }

@@ -5,6 +5,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import dayjs from "dayjs";
+import duration from "dayjs/plugin/duration";
+import relativeTime from "dayjs/plugin/relativeTime";
+
+dayjs.extend(duration)
+dayjs.extend(relativeTime)
 
 class Experience extends Component {
   render() {
@@ -14,6 +20,8 @@ class Experience extends Component {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
 
+        var fromDate = work.from ? dayjs(work.from) : dayjs();
+        var toDate = work.to ? dayjs(work.to) : dayjs();        
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
             <Badge pill className="main-badge mr-2 mb-2" key={i}>
@@ -31,13 +39,13 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={work.years}
+            date={`${fromDate.format("MMM YYYY")} - ${toDate.format("MMM YYYY")} (${dayjs.duration(toDate.diff(fromDate,'month'),'month').humanize()})`}
             iconStyle={{
-              background: "#AE944F",
+              background: "#D25380",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i className={`${work.icons || 'fas fa-briefcase'} experience-icon`}></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

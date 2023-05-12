@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { OverlayTrigger,Tooltip} from "react-bootstrap";
 
 class Skills extends Component {
   render() {
@@ -6,20 +7,30 @@ class Skills extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.skills;
       var skills = this.props.sharedSkills.icons.map(function (skills, i) {
         return (
-          <li className="list-inline-item mx-3" key={i}>
+          <OverlayTrigger key={i}          
+          placement={'top'}
+          overlay={
+            <Tooltip>
+              {skills.level}
+            </Tooltip>
+          }
+        >
+          <li className="list-inline-item mx-3" >
             <span>
-              <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "220%" }}>
-                  <p
+              <div className="text-center skills-tile p-2">
+                <i className={skills.class} style={{ fontSize: "170%" }}>                 
+                </i>
+                <p
                     className="text-center"
-                    style={{ fontSize: "30%", marginTop: "4px" }}
+                    style={{ fontSize: "80%", marginTop: "8px" }}
                   >
                     {skills.name}
                   </p>
-                </i>
               </div>
             </span>
           </li>
+        </OverlayTrigger>
+          
         );
       });
     }

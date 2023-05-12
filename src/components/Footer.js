@@ -1,3 +1,4 @@
+import dayjs from "dayjs";
 import React, { Component } from "react";
 
 class Footer extends Component {
@@ -25,8 +26,11 @@ class Footer extends Component {
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
-                  : "???"}
-              </small>
+                  : "???"} - { dayjs().format("YYYY")}
+              </small>              
+            </div>
+            <div>
+            <small>Credits: <a href="https://github.com/Dorota1997/react-frontend-dev-portfolio">Initial Template Source by Dorota1997</a></small>
             </div>
           </div>
         </div>
