@@ -1,0 +1,78 @@
+{
+    "basic_info": {
+      "name": "Eugence Lim Hsiao Jun",
+      "titles": [ "Front-end Developer", "Mobile App Developer","Full Stack Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/Eugence1117",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/eugence/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "https://github.com/Eugence1117.png?size=400"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "Proficient"
+        },
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain",
+          "level": "Beginner"
+        },        
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "Proficient"
+        },
+        {
+          "name": "React Native",
+          "class": "devicon-react-plain",
+          "level": "Proficient"
+        },
+        {
+          "name": "Svelte Kit",
+          "class": "devicon-svelte-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Android App",
+          "class": "devicon-androidstudio-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": ".NET CORE",
+          "class": "devicon-csharp-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Microsoft SQL",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "Beginner"
+        }
+      ]
+    }
+  }
