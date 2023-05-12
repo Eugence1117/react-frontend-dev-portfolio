@@ -27,7 +27,7 @@ class Projects extends Component {
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div className="rounded-lg p-4">
+                <div className="rounded-lg p-4 w-100">
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
@@ -63,8 +63,8 @@ class Projects extends Component {
           >
             <span className="portfolio-item d-block">
                 <div className="foto">
-                    <div className="rounded-lg p-4">
-                    <iframe className="d-block" src="frogger/index.html" title="game" style={{border:'none'}} height={425}></iframe>
+                    <div className="rounded-lg p-4 w-100">
+                    <iframe className="d-block w-100" src="frogger/index.html" title="game" style={{border:'none'}} height={425}></iframe>
                 
                   <span className="project-date">2022</span>
                   <br />
