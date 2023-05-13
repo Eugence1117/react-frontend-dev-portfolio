@@ -61,7 +61,8 @@ class Skills extends Component {
             <ul className="list-inline mx-auto skill-icon">{skills}</ul>
           </div>
           <div className="col-md-12 text-center">
-            <p className="text-light" style={{fontSize:14}}>
+            <p className="text-light" style={{ fontSize: 14 }}>
+              
             {this.state.selectedSkill ? this.state.selectedSkill.description ||"":""}
             </p>
             

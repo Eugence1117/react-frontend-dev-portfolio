@@ -15,14 +15,14 @@ class ProjectDetailsModal extends Component {
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
-            <li className="list-inline-item mx-3" key={i}>
+            <li className="list-inline-item mx-3 bg-white shadow px-2 pb-1 pt-4 rounded-lg" key={i} style={{minWidth:60}}>
               <span>
                 <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                  <i className={`${icons.class} colored`} style={{ fontSize: "300%" }}>                    
+                  </i>
+                  <p className="text-center mb-0" style={{ }}>
                       {icons.name}
                     </p>
-                  </i>
                 </div>
               </span>
             </li>

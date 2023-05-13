@@ -53,6 +53,24 @@
         "description":"Mainly used to write Web API and integrating Django Form features into custom web application."
       },
       {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "Intermediate",
+        "description":"Mainly used when using Django framework, doing automation tool and writing excel report generator."
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "Intermediate",
+        "description":"Mainly used to write backend logics that emphasize Object-Oriented and Data Structures and Alorigthmn. I had been written a Chess game with it."
+      },
+      {
+        "name": "Kotlin",
+        "class": "devicon-kotlin-plain",
+        "level": "Intermediate",
+        "description":"Mainly used to develop mobile application."
+      },
+      {
         "name": "Android App",
         "class": "devicon-androidstudio-plain",
         "level": "Intermediate",
