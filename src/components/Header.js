@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import DeveloperIcon from "../lotties/141572-space-boy-developer.json";
+import Lottie from "lottie-react";
 
 class Header extends Component {
   titles = [];
@@ -35,11 +37,12 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }} className="position-relative">
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <Lottie animationData={DeveloperIcon} className="header-icon mx-auto"/>
+              {/* <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span> */}
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
@@ -90,6 +93,9 @@ class Header extends Component {
             </div>
           </div>
         </div>
+        {/* <div className="position-absolute w-100 h-100 d-flex justify-content-center align-items-center" style={{top:0,opacity:0.5}}>
+          
+        </div> */}
       </header>
     );
   }

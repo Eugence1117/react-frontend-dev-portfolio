@@ -39,7 +39,7 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={`${fromDate.format("MMM YYYY")} - ${toDate.format("MMM YYYY")} (${dayjs.duration(toDate.diff(fromDate,'month'),'month').humanize()})`}
+            date={`${fromDate.format("MMM YYYY")} - ${toDate.isSame(new dayjs(),'date') ? "Current":toDate.format("MMM YYYY")} (${dayjs.duration(toDate.diff(fromDate,'month'),'month').humanize()})`}
             iconStyle={{
               background: "#D25380",
               color: "#fff",

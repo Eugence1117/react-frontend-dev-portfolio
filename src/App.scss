@@ -78,6 +78,21 @@ header {
 	transform: translate(0, -10px);	
 }
 
+.skills-tile.selected{
+	border: #D25380 solid 1px;
+	transform: translate(0, -10px);	
+}
+
+.description{
+	display: none;
+	width: 250px;
+	left: calc(-50% - 50px);
+}
+
+.skills-tile:hover .description{
+	display: block !important;
+}
+
 .language {
 	font-size: 25px;
 	background-color: #FFFAF4;
@@ -131,6 +146,7 @@ header h1 {
 	display: block;
 	// width: 100%;
 	margin:auto;
+	max-width: 100%;
 }
 
 .foto div {

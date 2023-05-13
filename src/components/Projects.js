@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -27,12 +28,12 @@ class Projects extends Component {
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div className="rounded-lg p-4 w-100">
+                <div className="p-4 w-100" style={{borderRadius:24}}>
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    height="230"                    
+                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative',backgroundColor:projects.themeColor || "#FFFAF4" ,borderRadius:12}}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
@@ -57,25 +58,25 @@ class Projects extends Component {
             <div className="row mx-auto">
               {projects}
               <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={"game"}
-            style={{ cursor: "pointer" }}
-          >
-            <span className="portfolio-item d-block">
-                <div className="foto">
-                    <div className="rounded-lg p-4 w-100">
-                    <iframe className="d-block w-100" src="frogger/index.html" title="game" style={{border:'none'}} height={425}></iframe>
-                
-                  <span className="project-date">2022</span>
-                  <br />
-                  <p className="project-title-settings mt-3" style={{zIndex:10}}>
-                    Frogger Arcade
-                  </p>
-                </div>
+                className="col-sm-12 col-md-6 col-lg-4"
+                key={"game"}
+                style={{ cursor: "pointer" }}
+              >
+                <span className="portfolio-item d-block">
+                  <div className="foto">
+                    <div className="p-4 w-100" style={{borderRadius:24}}>
+                      <iframe className="d-block w-100" src="frogger/index.html" title="game" style={{ border: 'none' }} height={425}></iframe>
+
+                      <span className="project-date">2022</span>
+                      <br />
+                      <p className="project-title-settings mt-3" style={{ zIndex: 10 }}>
+                        Frogger Arcade
+                      </p>
+                    </div>
+                  </div>
+
+                </span>
               </div>
-              
-            </span>
-          </div>
             </div>
           </div>
           <ProjectDetailsModal
@@ -83,7 +84,7 @@ class Projects extends Component {
             onHide={detailsModalClose}
             data={this.state.deps}
           />
-        </div>
+        </div>     
       </section>
     );
   }

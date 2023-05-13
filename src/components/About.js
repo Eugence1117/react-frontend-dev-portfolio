@@ -4,6 +4,8 @@ import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
 import axios from "axios";
+import Lottie from "lottie-react";
+import ProfileIcon from "../lotties/111452-it-developer.json"
 
 class About extends Component {
 
@@ -52,11 +54,12 @@ class About extends Component {
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
-                  <img
+                  {/* <img
                     height="150px"
                     src={profilepic}
                     alt="Avatar placeholder"
-                  />
+                  /> */}
+                  <Lottie animationData={ProfileIcon} height={150}/>
                   {/* <Icon
                     icon={angularIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}

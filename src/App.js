@@ -43,7 +43,7 @@ class App extends Component {
   //     .setAttribute("filter", "brightness(40%)");
   // }
 
-  componentDidMount() {
+  componentDidMount() {    
     this.loadSharedData();
     this.applyPickedLanguage(
       window.$primaryLanguage,

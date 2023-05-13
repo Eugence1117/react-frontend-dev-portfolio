@@ -14,6 +14,7 @@
         "title": "Movie Ticketing System",
         "startDate": "2020",
         "description": "...",
+        "themeColor":"#4e73df",
         "images": [          
           "images/portfolio/movie-ticketing-system/background.png",          
           "images/portfolio/movie-ticketing-system/dashboard-view-1.png",
@@ -44,7 +45,7 @@
       {
         "title": "Fleet Monitoring",
         "startDate": "2019",
-        "description": "...",
+        "description": "...",        
         "images": [
           "images/portfolio/fleet-monitoring/background.png",
           "images/portfolio/fleet-monitoring/mobile-1.png",

@@ -1,78 +1,93 @@
 {
-    "basic_info": {
-      "name": "Eugence Lim Hsiao Jun",
-      "titles": [ "Front-end Developer", "Mobile App Developer","Full Stack Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/Eugence1117",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/eugence/",
-          "class": "fab fa-linkedin"
-        }
-      ],
-      "image": "https://github.com/Eugence1117.png?size=400"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "Proficient"
-        },
-        {
-          "name": "Spring Boot",
-          "class": "devicon-spring-plain",
-          "level": "Beginner"
-        },        
-        {
-          "name": "React",
-          "class": "devicon-react-plain",
-          "level": "Proficient"
-        },
-        {
-          "name": "React Native",
-          "class": "devicon-react-plain",
-          "level": "Proficient"
-        },
-        {
-          "name": "Svelte Kit",
-          "class": "devicon-svelte-plain",
-          "level": "Intermediate"
-        },
-        {
-          "name": "Django",
-          "class": "devicon-django-plain",
-          "level": "Intermediate"
-        },
-        {
-          "name": "Android App",
-          "class": "devicon-androidstudio-plain",
-          "level": "Intermediate"
-        },
-        {
-          "name": ".NET CORE",
-          "class": "devicon-csharp-plain",
-          "level": "Intermediate"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "Intermediate"
-        },
-        {
-          "name": "Microsoft SQL",
-          "class": "devicon-microsoftsqlserver-plain",
-          "level": "Intermediate"
-        },
-        {
-          "name": "Firebase",
-          "class": "devicon-firebase-plain",
-          "level": "Beginner"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Eugence Lim Hsiao Jun",
+    "titles": [
+      "Front-end Developer",
+      "Mobile App Developer",
+      "Full Stack Developer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/Eugence1117",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/eugence/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "https://github.com/Eugence1117.png?size=400"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "Proficient",
+        "description":"Utilize frequently when developing frontend application using JS framework such as SvelteKit and React."
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "Proficient",
+        "description":"Used to built admin dashboard."
+      },
+      {
+        "name": "React Native",
+        "class": "devicon-react-plain",
+        "level": "Proficient",
+        "description":"Mainly used to built frontend application such as Mobile Sales App, Warehouse Management App"
+      },
+      {
+        "name": "Svelte Kit",
+        "class": "devicon-svelte-plain",
+        "level": "Intermediate",
+        "description":"Mainly used to built dashboard and some custom SSR application."
+      },
+      {
+        "name": "Django",
+        "class": "devicon-django-plain",
+        "level": "Intermediate",
+        "description":"Mainly used to write Web API and integrating Django Form features into custom web application."
+      },
+      {
+        "name": "Android App",
+        "class": "devicon-androidstudio-plain",
+        "level": "Intermediate",
+        "description":"Experienced in developed Fleet Monitoring Application for lorry driver, and Smart Room IoT solution."
+      },
+      {
+        "name": ".NET CORE",
+        "class": "devicon-csharp-plain",
+        "level": "Intermediate",
+        "description":"Used to writing Web Api while implementing Service Stack and Hangfire as windows services."
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "Intermediate",
+        "description":""
+      },
+      {
+        "name": "Microsoft SQL",
+        "class": "devicon-microsoftsqlserver-plain",
+        "level": "Intermediate",
+        "description":""
+      },
+      {
+        "name": "Spring Boot",
+        "class": "devicon-spring-plain",
+        "level": "Beginner",
+        "description":"Used to writing Web Api for telco company's Admin Dashboard."
+      },
+      {
+        "name": "Firebase",
+        "class": "devicon-firebase-plain",
+        "level": "Beginner",
+        "description":"Used in mobile app to store real-time information such as device's location and some IoT sensor data."
+      }
+    ]
   }
+}
